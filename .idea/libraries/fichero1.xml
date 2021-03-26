@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="fichero1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/calculator/out/production/calculator/jar/fichero.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

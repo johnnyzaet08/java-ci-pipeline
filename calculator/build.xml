@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<project name="Mi_Proyecto" default="todo">
+
+    <target name="todo" depends="empaqueta">
+    </target>
+
+    <target name="empaqueta" depends="compila">
+        <jar destfile="jar/prueba.jar" basedir="">
+            <manifest>
+                <attribute name="Main-Class" value="Main" />
+            </manifest>
+        </jar>
+    </target>
+
+    <target name="compila">
+        <javac srcdir="." destdir="./src"/>
+    </target>
+
+</project>
